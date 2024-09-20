@@ -6,6 +6,7 @@ IPv6Spot is a captive gateway system using IPv6 on OpenWRT firewall, All rights 
 
 - Main File Directory: /mnt/cerr Copy all files and folders to the directory: /mnt/cerr.
 - File tree directory:
+6
 		db  >> Database encryption and backup files
 		web_dist >> Web Dashboard Pages Files
 		console >> Create virtual interfaces for IPv6Spot
@@ -22,7 +23,7 @@ IPv6Spot is a captive gateway system using IPv6 on OpenWRT firewall, All rights 
 		Kernel Version	5.10.138
 
 - Operating requirements:
-
+5
 		python --version > Python 3.10.13
 		scapy version  2.5.0
 	 -
