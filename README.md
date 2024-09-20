@@ -3,7 +3,7 @@ IPv6Spot is a captive gateway system using IPv6 on OpenWRT firewall, All rights 
 
 		abdulkader.alrezej@outlook.com
 		Whatsapp: +90 537 450 65 16
-		[My YouTube channel](https://www.youtube.com/@abdulkader_alrezej/videos "My YouTube channel")
+[My YouTube channel](https://www.youtube.com/@abdulkader_alrezej/videos "My YouTube channel")
 
 - Main File Directory: /mnt/cerr Copy all files and folders to the directory: /mnt/cerr.
 
