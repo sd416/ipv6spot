@@ -1,4 +1,4 @@
-Hello everyone 1
+Hello everyone 12
 IPv6Spot is a captive gateway system using IPv6 on OpenWRT firewall, All rights reserved to the author: Abdulkader Alrezej , You can use the code with the author's name mentioned.
 
 - Main File Directory: /mnt/cerr Copy all files and folders to the directory: /mnt/cerr.
@@ -65,7 +65,7 @@ IPv6Spot is a captive gateway system using IPv6 on OpenWRT firewall, All rights 
 	ip-full
 	iputils-arping
 	nmap
-	kmod-veth
+				kmod-veth
 - must be disabled Dnsmasq, Also give root permission to the following files: sn tv wb xt xtt >> chmod +x *.py
 - 
 - Also nftable should be directed to the new nftable rules site at: /etc/init.d/nftables And replace this line " nft -f /etc/nftables.conf " with this line nft -f /mnt/cerr/tba
