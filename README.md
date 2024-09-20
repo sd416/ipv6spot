@@ -190,3 +190,8 @@ IPv6Spot is a captive gateway system using IPv6 on OpenWRT firewall, All rights 
 			procd_close_instance
 
 **- Please let me know if there is any error during installation or operation to fix it in the previous guide.**
+![ipv6spot1](https://github.com/user-attachments/assets/365bd93b-3215-4dc4-a524-3aee471cd5b3)
+![ipv6spot2](https://github.com/user-attachments/assets/e94f0e85-4415-45cd-8cf5-084551bf5af5)
+![7](https://github.com/user-attachments/assets/79c265fb-62a2-4200-b3f1-14415ce53b56)
+![2](https://github.com/user-attachments/assets/34a387aa-9e23-4189-8301-a6757ee1d4db)
+![12](https://github.com/user-attachments/assets/45ebba16-48eb-4563-9fb5-2a3c95784e97)
