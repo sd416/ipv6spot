@@ -5,6 +5,7 @@ IPv6Spot is a captive gateway system using IPv6 on OpenWRT firewall, All rights 
 		Whatsapp: +90 537 450 65 16
 
 - Main File Directory: /mnt/cerr Copy all files and folders to the directory: /mnt/cerr.
+
 - File tree directory:
 6
 		db  >> Database encryption and backup files
