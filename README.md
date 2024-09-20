@@ -27,7 +27,9 @@ IPv6Spot is a captive gateway system using IPv6 on OpenWRT firewall, All rights 
 
 		python --version > Python 3.10.13
 		scapy version  2.5.0
+
 	 -
+
 		NAT64 for a IPv6-only network (Jool) >> https://openwrt.org/docs/guide-user/network/ipv6/nat64
 		python3-lzma	3.10.13-2
 		python3-multiprocessing	3.10.13-2
