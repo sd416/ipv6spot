@@ -18,10 +18,10 @@ IPv6Spot is a captive gateway system using IPv6 on OpenWRT firewall, All rights 
   
 - OpenWRT version used in the system OpenWRT 22.03.0 	x86/64 / Kernel Version	5.10.138
 - Operating requirements:
-  NAT64 for a IPv6-only network (Jool) >> https://openwrt.org/docs/guide-user/network/ipv6/nat64
-  python3-lzma	3.10.13-2
-  python3-multiprocessing	3.10.13-2
-  python3-ncurses	3.10.13-2
+  	NAT64 for a IPv6-only network (Jool) >> https://openwrt.org/docs/guide-user/network/ipv6/nat64
+  	python3-lzma	3.10.13-2
+  	python3-multiprocessing	3.10.13-2
+  	python3-ncurses	3.10.13-2
 	python3-openssl	3.10.13-2
 	python3-pillow	9.5.0-2
 	python3-pip	23.0.1-1
