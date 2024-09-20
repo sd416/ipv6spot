@@ -12,8 +12,8 @@ IPv6Spot is a captive gateway system using IPv6 on OpenWRT firewall, All rights 
 		tba >> nftables rules file
 		tv >> IPv6Spot system
 		wb >> Back-End of the web control panel
-		xt >> IPv6Spot Web Proxy  A Captive portal detection URLs 
-		xtt >> IPv6Spot Web Proxy  B Respond to detection URLs 
+		- xt >> IPv6Spot Web Proxy  A Captive portal detection URLs 
+		-xtt >> IPv6Spot Web Proxy  B Respond to detection URLs 
 # 1
 - OpenWRT version used in the system OpenWRT 22.03.0 	x86/64 / Kernel Version	5.10.138
 - Operating requirements:
