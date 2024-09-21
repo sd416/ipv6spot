@@ -2,7 +2,13 @@
 - **IPv6Spot is a captive portal system using IPv6 on OpenWRT firewall, All rights reserved to the author: Abdulkader Alrezej , You can use the code with the author's name mentioned.**
 
 		abdulkader.alrezej@outlook.com
-		Whatsapp: +90 537 450 65 16
+
+- **Donate to support the IPv6Spot project, wallet number on the Binance:**
+
+		Deposit: 	USDT
+		Network: 	Tron (TRC20)
+		Deposit Address Binance: 	TWSz7DKchA1xtsAmAiMx4dNW16N9pZfQEi
+  
 [My YouTube channel](https://www.youtube.com/@abdulkader_alrezej/videos "My YouTube channel")
 
 - Main File Directory: /mnt/cerr Copy all files and folders to the directory: /mnt/cerr.
