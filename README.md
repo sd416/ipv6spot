@@ -11,7 +11,8 @@
 		Network: 	Tron (TRC20)
 		Deposit Address Binance: 	TWSz7DKchA1xtsAmAiMx4dNW16N9pZfQEi
   
-[My YouTube channel](https://www.youtube.com/@abdulkader_alrezej/videos "My YouTube channel")
+![donation-button-medium-en-nl](https://github.com/user-attachments/assets/582e2405-3fe0-4bbd-8c4d-d98e49c4bb1e)
+
 
 - Main File Directory: /mnt/cerr Copy all files and folders to the directory: /mnt/cerr.
 
