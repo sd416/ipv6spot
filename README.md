@@ -3,6 +3,7 @@
 
 		abdulkader.alrezej@outlook.com
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](YOUR_EMAIL_CODE)
 - **Donate to support the IPv6Spot project, wallet number on the Binance:**
 
 		Deposit: 	USDT
