@@ -3,9 +3,7 @@
 
 		abdulkader.alrezej@outlook.com
 
-![donation-button-medium-en-nl](https://github.com/user-attachments/assets/582e2405-3fe0-4bbd-8c4d-d98e49c4bb1e)
-
-- **Donate to support the IPv6Spot project, wallet number on the Binance:**
+- **![donation-button-medium-en-nl](https://github.com/user-attachments/assets/582e2405-3fe0-4bbd-8c4d-d98e49c4bb1e) to support the IPv6Spot project, wallet number on the Binance:**
 
 		Deposit: 	USDT
 		Network: 	Tron (TRC20)
