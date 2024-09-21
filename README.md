@@ -2,8 +2,8 @@
 - **IPv6Spot is a captive portal system using IPv6 on OpenWRT firewall, All rights reserved to the author: Abdulkader Alrezej , You can use the code with the author's name mentioned.**
 
 		abdulkader.alrezej@outlook.com
-
-- **![donation-button-medium-en-nl](https://github.com/user-attachments/assets/582e2405-3fe0-4bbd-8c4d-d98e49c4bb1e) to support the IPv6Spot project, wallet number on the Binance:**
+  
+- ** ![donate_button_edges_transparent](https://github.com/user-attachments/assets/b95c02ec-6709-4c7e-81a7-a3b7c8c3c614) to support the IPv6Spot project, wallet number on the Binance:**
 
 		Deposit: 	USDT
 		Network: 	Tron (TRC20)
