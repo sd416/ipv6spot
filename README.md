@@ -3,11 +3,13 @@
 
 		abdulkader.alrezej@outlook.com
 
- ![donate_button_edges_1px_transparent](https://github.com/user-attachments/assets/d1f9c246-9f5c-48dc-a4b6-55fb272b07d6) **to support the IPv6Spot project, wallet number on the Binance:**
+
+ ![donate_button_edges_1px_transparent](https://github.com/user-attachments/assets/d1f9c246-9f5c-48dc-a4b6-55fb272b07d6) **To support the IPv6Spot project, wallet number on the Binance:**
 
 		Deposit: 	USDT
 		Network: 	Tron (TRC20)
 		Deposit Address Binance: 	TWSz7DKchA1xtsAmAiMx4dNW16N9pZfQEi
+
 
 - Main File Directory: /mnt/cerr Copy all files and folders to the directory: /mnt/cerr.
 
