@@ -253,8 +253,13 @@
 ![image](https://github.com/user-attachments/assets/097ce47c-0a64-4d2e-9b2a-d90cb052daa6)
 
 
+![9](https://github.com/user-attachments/assets/0f88ea10-5340-4009-88f3-ccadc61eba0b)
 
 
+![dns](https://github.com/user-attachments/assets/6ab21f94-648b-499e-99c2-361ee43c32a2)
 
 
+![accessDenied](https://github.com/user-attachments/assets/b399bd22-d2e8-413d-8f5a-075ecb0c35fb)
 
+
+![w3](https://github.com/user-attachments/assets/caee1d69-a01e-40fd-86db-cc7bc13523af)
