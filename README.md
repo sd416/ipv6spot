@@ -32,6 +32,7 @@
 	 -
 
 		NAT64 for a IPv6-only network (Jool) >> https://openwrt.org/docs/guide-user/network/ipv6/nat64
+  		conntrack
 		python3-lzma	3.10.13-2
 		python3-multiprocessing	3.10.13-2
 		python3-ncurses	3.10.13-2
@@ -166,27 +167,27 @@
 - Run services when OpenWrt boots:
 
 			procd_open_instance
-			procd_set_param command /mnt/cerr/xt
+			procd_set_param command /mnt/cerr/xt.py
 			procd_set_param respawn
 			procd_close_instance
 
 			procd_open_instance
-			procd_set_param command /mnt/cerr/xtt
+			procd_set_param command /mnt/cerr/xtt.py
 			procd_set_param respawn
 			procd_close_instance
 
 			procd_open_instance
-			procd_set_param command /mnt/cerr/tv
+			procd_set_param command /mnt/cerr/tv.py
 			procd_set_param respawn
 			procd_close_instance
 
 			procd_open_instance
-			procd_set_param command /mnt/cerr/sn
+			procd_set_param command /mnt/cerr/sn.py
 			procd_set_param respawn
 			procd_close_instance
 
 			procd_open_instance
-			procd_set_param command /mnt/cerr/wb
+			procd_set_param command /mnt/cerr/wb.py
 			procd_set_param respawn
 			procd_close_instance
 
