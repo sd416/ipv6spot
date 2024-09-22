@@ -8,7 +8,7 @@
 
 		Deposit: 	USDT
 		Network: 	Tron (TRC20)
-		Deposit Address Binance: 	TWSz7DKchA1xtsAmAiMx4dNW16N9pZfQEi
+		Deposit Address Binance(Wallet address): 	TWSz7DKchA1xtsAmAiMx4dNW16N9pZfQEi
 
 
 - Main File Directory: /mnt/cerr Copy all files and folders to the directory: /mnt/cerr.
