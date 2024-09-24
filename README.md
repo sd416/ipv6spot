@@ -156,7 +156,7 @@
 
 - must be disabled Dnsmasq, Also give root permission to the following files: sn tv wb xt xtt >> chmod +x *.py
 
-			chmod +x sn tv wb xt xtt
+			chmod +x sn.py tv.py wb.py xt.py xtt.py
 
 - Also nftable should be directed to the new nftable rules site at: /etc/init.d/nftables And replace this line " nft -f /etc/nftables.conf " with this line nft -f /mnt/cerr/tba
 
