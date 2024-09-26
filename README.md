@@ -1,5 +1,5 @@
 - **Hello everyone**
-- **IPv6Spot is a captive portal system using IPv6 on OpenWRT firewall, All rights reserved to the author: Abdulkader Alrezej , You can use the code with the author's name mentioned.**
+- **IPv6Spot is a captive portal system using IPv6 on OpenWRT firewall, NAT64 & DNS64.**
 
 		abdulkader.alrezej@outlook.com
                 +90 537 450 65 16  (Whatsapp)
