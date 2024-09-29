@@ -2,8 +2,9 @@
 - **IPv6Spot is a captive portal system using IPv6 on OpenWRT firewall, NAT64 & DNS64.**
 
 		abdulkader.alrezej@outlook.com
-                +90 537 450 65 16  (Whatsapp)
-                Facebook Greoup: https://www.facebook.com/share/g/PEoiNnoARAosRMG9/?mibextid=A7sQZp
+		+90 537 450 65 16  (Whatsapp)
+		Facebook Group: https://www.facebook.com/share/g/PEoiNnoARAosRMG9/?mibextid=A7sQZ
+  		Facebook group name: Arab Forum For IT
 
 - Main File Directory: /mnt/cerr Copy all files and folders to the directory: /mnt/cerr.
 
