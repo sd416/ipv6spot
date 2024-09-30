@@ -1,10 +1,7 @@
 - **Hello everyone**
-- **IPv6Spot is a captive portal system using IPv6 on OpenWRT firewall, NAT64 & DNS64.**
 
 		abdulkader.alrezej@outlook.com
 		+90 537 450 65 16  (Whatsapp)
-		Facebook Group: https://www.facebook.com/share/g/PEoiNnoARAosRMG9/?mibextid=A7sQZ
-  		Facebook group name: Arab Forum For IT
 
 Research Paper: IPv6Spot - An Innovative IPv6 Captive Portal Solution with Integrated DNS and Proxy Services
 
