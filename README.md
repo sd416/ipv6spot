@@ -1,6 +1,6 @@
 - > `The IPv6Spot project is an open-source, free, and non-commercial project. The goal of this system is to advance the development of IPv6.`
-- **Project start date: 23/09/2021**
-- **project publication date on GitHub:24/09/2024**
+- **Project start date: 06/2021**
+- **project publication date on GitHub: 24/09/2024**
 - **important note: The IPv6 addresses used in the source code are for the example only, you must replace them with addresses compatible with the IPv6 standards.**
 - **I hope everyone benefits from this open-source project for the development of IPv6.**
 
