@@ -1,8 +1,10 @@
 - > `The IPv6Spot project is an open-source, free, and non-commercial project. The goal of this system is to advance the development of IPv6.`
 
-- > `If you would like to donate and support us in completing the development of the IPv6Spot Project
-  > Network:  Bitcoin
-  > Deposit Address:  17w2iiZevtWzRyQeSYhrBWrhCyQmKBqzVx`
+
+		If you would like to donate and support us in completing the development of the IPv6Spot Project
+  		Network:  Bitcoin
+  		Deposit Address:  17w2iiZevtWzRyQeSYhrBWrhCyQmKBqzVx
+
 
 - **Project start date: 06/2021**
 - **project publication date on GitHub: 24/09/2024**
