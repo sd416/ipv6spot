@@ -17,6 +17,7 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 		abdulkader.alrezej@outlook.com
 
+## Research Paper
 Research Paper: IPv6Spot - An Innovative IPv6 Captive Portal Solution with Integrated DNS and Proxy Services
 
 Abstract
