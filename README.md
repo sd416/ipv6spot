@@ -6,6 +6,10 @@
   		Deposit Address:  17w2iiZevtWzRyQeSYhrBWrhCyQmKBqzVx
 
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
+
 - **Project start date: 06/2021**
 - **project publication date on GitHub: 24/09/2024**
 - **important note: The IPv6 addresses used in the source code are for the example only, you must replace them with addresses compatible with the IPv6 standards.**
