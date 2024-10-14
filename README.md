@@ -1,9 +1,6 @@
 ## Project 
 - > `The IPv6Spot project is an open-source, free, and non-commercial project. The goal of this system is to advance the development of IPv6.`
 
-## Donate
-		https://gogetfunding.com/captive-portal-ipv6-support
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
