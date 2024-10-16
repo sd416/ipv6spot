@@ -1,6 +1,12 @@
 ## Project 
 - > `The IPv6Spot project is an open-source, free, and non-commercial project. The goal of this system is to advance the development of IPv6.`
 
+- **IPv6Spot installation guide with iso file download link to install the system:**
+
+		https://youtu.be/Iejz8vUP9wY?si=NBwTcxjhvVZ8RIn_
+  
+		https://drive.google.com/file/d/1aDe7ILiZPsQL_ZeCsoAG2Kg7vWE2YxC3/view?pli=1
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
