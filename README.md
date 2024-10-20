@@ -7,6 +7,12 @@
   
 		https://drive.google.com/file/d/1aDe7ILiZPsQL_ZeCsoAG2Kg7vWE2YxC3/view?pli=1
 
+## Donate
+- **You can donate to support the IPv6Spot project:**
+		https://gogetfunding.com/please-help-me-complete-my-project-captive-portal-project-in-ipv6
+- **Or you can donate directly to the Bitcoin wallet.:**
+		17w2iiZevtWzRyQeSYhrBWrhCyQmKBqzVx
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
