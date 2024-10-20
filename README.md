@@ -4,9 +4,9 @@
 
 - **IPv6Spot installation guide with iso file download link to install the system:**
 
-		https://youtu.be/Iejz8vUP9wY?si=NBwTcxjhvVZ8RIn_
+- > `https://youtu.be/Iejz8vUP9wY?si=NBwTcxjhvVZ8RIn_`
   
-		https://drive.google.com/file/d/1aDe7ILiZPsQL_ZeCsoAG2Kg7vWE2YxC3/view?pli=1
+- > `https://drive.google.com/file/d/1aDe7ILiZPsQL_ZeCsoAG2Kg7vWE2YxC3/view?pli=1`
 
 ## Donate 🙏🏻💚
 - **You can donate directly to the Bitcoin wallet.:**
