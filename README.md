@@ -1,6 +1,6 @@
 ## Project 
-- > `The IPv6Spot project is an open-source, free,The goal of this system is to advance the development of IPv6.
-  > Note: Companies interested in purchasing a license to use the source code commercially can contact this number on WhatsApp: +90 537 450 65 16`
+- > `The IPv6Spot project is an open-source, free,The goal of this system is to advance the development of IPv6.`
+- > `Note: Companies interested in purchasing a license to use the source code commercially can contact this number on WhatsApp: +90 537 450 65 16`
 
 - **IPv6Spot installation guide with iso file download link to install the system:**
 
