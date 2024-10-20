@@ -9,7 +9,7 @@
 - > `https://drive.google.com/file/d/1aDe7ILiZPsQL_ZeCsoAG2Kg7vWE2YxC3/view?pli=1`
 
 ## Donate 🙏🏻💚
-- **You can donate directly to the Bitcoin wallet.:**
+- **Support our 'ipv6spot' project to secure public Wi-Fi with IPv6. Donate to our Bitcoin wallet—every contribution helps. Thank you:**
 
 		17w2iiZevtWzRyQeSYhrBWrhCyQmKBqzVx
 
