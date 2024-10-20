@@ -1,5 +1,5 @@
 ## Project 
-- > `The IPv6Spot project is an open-source, free, and non-commercial project. The goal of this system is to advance the development of IPv6.`
+- > `The IPv6Spot project is an open-source, free,The goal of this system is to advance the development of IPv6.`
 
 - **IPv6Spot installation guide with iso file download link to install the system:**
 
