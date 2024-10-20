@@ -8,7 +8,7 @@
   
 		https://drive.google.com/file/d/1aDe7ILiZPsQL_ZeCsoAG2Kg7vWE2YxC3/view?pli=1
 
-## Donate
+## Donate 🙏🏻💚
 - **You can donate directly to the Bitcoin wallet.:**
 
 		17w2iiZevtWzRyQeSYhrBWrhCyQmKBqzVx
