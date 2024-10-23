@@ -14,8 +14,26 @@
 		17w2iiZevtWzRyQeSYhrBWrhCyQmKBqzVx
 
 ## License
+ipv6spot" Project License Agreement, See the [LICENSE](./LICENSE) file for more details.
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
+1. Non-Commercial Use
+The "ipv6spot" project is licensed free of charge for personal, educational, or research purposes that are non-commercial. You may download, modify, and distribute the source code for these purposes without the need for permission or payment.
+
+2. Commercial Use
+Any use of the project in a commercial or profit-making environment, including incorporating it into products or services that are sold or used for profit, requires the purchase of a commercial license. Commercial use includes, but is not limited to:
+
+Integrating the project into a product or service that is sold or generates revenue.
+Offering the project as a paid service or part of a paid service.
+Any use within a commercial organization, whether internal or external.
+To obtain a commercial license, please contact [email address] to arrange the purchase and discuss terms.
+
+3. General Terms
+All intellectual property rights related to the "ipv6spot" project are reserved by the project owner.
+You may not remove any copyright notices or modify the attribution in the source code.
+The project is provided "as-is," without any express or implied warranties.
+
+4. Penalties
+Any unauthorized commercial use of the project without purchasing a license will be considered a violation of this agreement and may result in legal action.
 
 - **Project start date: 06/2021**
 - **important note: The IPv6 addresses used in the source code are for the example only, you must replace them with addresses compatible with the IPv6 standards.**
