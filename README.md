@@ -25,10 +25,10 @@ Any use of the project in a commercial or profit-making environment, including i
 Integrating the project into a product or service that is sold or generates revenue.
 Offering the project as a paid service or part of a paid service.
 Any use within a commercial organization, whether internal or external.
-To obtain a commercial license, please contact [email address] to arrange the purchase and discuss terms.
+To obtain a commercial license, please contact abdulkader.alrezej@gmail.com to arrange the purchase and discuss terms.
 
 3. General Terms
-All intellectual property rights related to the "ipv6spot" project are reserved by the project owner.
+All intellectual property rights related to the "ipv6spot" project are reserved by the project owner Abdulkader Alrezej.
 You may not remove any copyright notices or modify the attribution in the source code.
 The project is provided "as-is," without any express or implied warranties.
 
