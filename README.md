@@ -37,9 +37,6 @@ Any unauthorized commercial use of the project without purchasing a license will
 
 - **Project start date: 06/2021**
 - **important note: The IPv6 addresses used in the source code are for the example only, you must replace them with addresses compatible with the IPv6 standards.**
-- **I hope everyone benefits from this open-source project for the development of IPv6.**
-
-		abdulkader.alrezej@outlook.com
 
 ## Research Paper
 Research Paper: IPv6Spot - An Innovative IPv6 Captive Portal Solution with Integrated DNS and Proxy Services
