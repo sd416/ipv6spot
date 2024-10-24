@@ -13,6 +13,9 @@
 
 		17w2iiZevtWzRyQeSYhrBWrhCyQmKBqzVx
 
+## Note ⚠️
+- **The previous code had missing and incorrect files, but the issue has been resolved, and the code now works correctly. 24/10/2024**
+- 
 ## License
 ipv6spot" Project License Agreement, See the [LICENSE](./LICENSE) file for more details.
 
