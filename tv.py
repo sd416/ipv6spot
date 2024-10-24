@@ -11,6 +11,7 @@ from datetime import datetime
 from functools import wraps
 from werkzeug.security import generate_password_hash, check_password_hash
 import os
+#
 # Abdulkader Alrezej
 os.environ['FLASK_ENV'] = 'production'
 app = Flask(__name__, template_folder='/mnt/cerr/web_dist/html_page', static_folder='/mnt/cerr/web_dist/img')
