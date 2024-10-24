@@ -10,6 +10,7 @@ import time
 from datetime import datetime, timedelta
 import psutil
 import sqlite3
+#
 # Abdulkader Alrezej
 class RedirectingResolver(BaseResolver):
     def __init__(self, redirect_ip_if_not_in_nft, redirect_ip_if_in_nft, external_domains_file, upstream_dns="8.8.4.4"):
