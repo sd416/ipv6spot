@@ -1,5 +1,9 @@
-## Project 
-- > `The IPv6Spot project is an open-source,The goal of this system is to advance the development of IPv6.`
+## IPv6Spot Project Overview
+
+The IPv6Spot project is the culmination of over two years of continuous work, and I am thrilled to share its progress with you. The key focus has been on addressing the challenges associated with handling temporary and multiple IPv6 addresses, which we successfully resolved through the use of MAC addresses. This approach proved to be an ideal solution, operating seamlessly without issues.
+This captive portal project using IPv6 stands as the first of its kind worldwide, and I am delighted to announce that we have managed to overcome all hurdles to ensure that the captive portal operates smoothly with IPv6, all without relying on a DHCP server. This solution is especially beneficial, as certain systems, like Android, do not support DHCP for IPv6.
+I hope this innovation resonates with you and showcases the potential of IPv6 for secure and user-friendly network experiences.
+
 - > `Note: Companies interested in purchasing a license to use the source code commercially can contact this number on WhatsApp: +90 537 450 65 16`
 
 - **IPv6Spot installation guide with iso file download link to install the system:**
