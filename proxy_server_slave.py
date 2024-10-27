@@ -7,7 +7,7 @@ import sqlite3
 # Abdulkader Alrezej
 class ProxyHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
     def get_network_from_db(self):
-        db_path = '/mnt/cerr/daa'
+        db_path = '/mnt/cerr/main_sqlite3_database.db'
         connection = sqlite3.connect(db_path)
         cursor = connection.cursor()
         cursor.execute("SELECT name_network FROM info_admin")
