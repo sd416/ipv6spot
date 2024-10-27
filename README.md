@@ -10,12 +10,10 @@
 - > `Note: Companies interested in purchasing a license to use the source code commercially can contact this number on WhatsApp: +90 537 450 65 16`
 
 - **💽 IPv6Spot installation guide with iso file download link to install the system:**
-- | Medium | [plugins/medium/README.md] [PlMe] |
-- *Zendesk**. With [Handlebars templates](http://handlebarsjs.com/)
-[ installation guide ] ( https://youtu.be/Iejz8vUP9wY?si=NBwTcxjhvVZ8RIn_ )
-| Medium | [plugins/medium/README.md] [PlMe] |
-- [iso file download link] (https://drive.google.com/file/d/1aDe7ILiZPsQL_ZeCsoAG2Kg7vWE2YxC3/view?pli=1)
 
+- *Link 1**. >> [installation guide](https://youtu.be/Iejz8vUP9wY?si=NBwTcxjhvVZ8RIn_)
+- *Link 2**. >> [iso file download link](https://drive.google.com/file/d/1aDe7ILiZPsQL_ZeCsoAG2Kg7vWE2YxC3/view?pli=1)
+- 
 ## Donate 🙏🏻💚
 - **Support our 'ipv6spot' project to secure public Wi-Fi with IPv6. Donate to our Bitcoin wallet—every contribution helps. Thank you:**
 
