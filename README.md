@@ -44,6 +44,8 @@ The project is provided "as-is," without any express or implied warranties.
 4. Penalties
 Any unauthorized commercial use of the project without purchasing a license will be considered a violation of this agreement and may result in legal action.
 
+![2](https://github.com/user-attachments/assets/34a387aa-9e23-4189-8301-a6757ee1d4db)
+
 ## Research Paper 🗒️
 Research Paper: IPv6Spot - An Innovative IPv6 Captive Portal Solution with Integrated DNS and Proxy Services
 
