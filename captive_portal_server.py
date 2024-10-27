@@ -241,7 +241,7 @@ def add_user_session(tc_id, username, master_ip, link_local_ip):
         ''', (tc_id, username, master_ip, link_local_ip))
         conn.commit()
 def end_user_session(tc_id):
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         end_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         cursor.execute('''
@@ -529,7 +529,7 @@ def logout():
     tc_id = session.get('tc_id')
     if username:
         if not tc_id:
-            with sqlite3.connect('/mnt/cerr/daa') as conn:
+            with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
                 cursor = conn.cursor()
                 cursor.execute('''
                     SELECT tc_id FROM user_sessions
