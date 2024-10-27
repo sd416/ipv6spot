@@ -53,7 +53,7 @@ class RedirectingResolver(BaseResolver):
             'www.networkcheck.kde.org',
             'connect.rom.miui.com'
         ]
-        self.load_additional_domains_from_db('/mnt/cerr/daa')
+        self.load_additional_domains_from_db('/mnt/cerr/main_sqlite3_database.db')
         self.external_domains = self.load_domains_from_file(external_domains_file)
     def load_additional_domains_from_db(self, db_path):
         try:
