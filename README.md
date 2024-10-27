@@ -10,6 +10,7 @@
 - > `Note: Companies interested in purchasing a license to use the source code commercially can contact this number on WhatsApp: +90 537 450 65 16`
 
 - **💽 IPv6Spot installation guide with iso file download link to install the system:**
+| Medium | [plugins/medium/README.md] [PlMe] |
 
 [ installation guide ] ( https://youtu.be/Iejz8vUP9wY?si=NBwTcxjhvVZ8RIn_ )
 | Medium | [plugins/medium/README.md] [PlMe] |
