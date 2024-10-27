@@ -11,10 +11,8 @@
 
 - **💽 IPv6Spot installation guide with iso file download link to install the system:**
 
-- > `https://youtu.be/Iejz8vUP9wY?si=NBwTcxjhvVZ8RIn_`
-[test] (https://youtu.be/Iejz8vUP9wY?si=NBwTcxjhvVZ8RIn_)
-  
-- > `https://drive.google.com/file/d/1aDe7ILiZPsQL_ZeCsoAG2Kg7vWE2YxC3/view?pli=1`
+[installation guide] (https://youtu.be/Iejz8vUP9wY?si=NBwTcxjhvVZ8RIn_)
+[iso file download link] (https://drive.google.com/file/d/1aDe7ILiZPsQL_ZeCsoAG2Kg7vWE2YxC3/view?pli=1)
 
 ## Donate 🙏🏻💚
 - **Support our 'ipv6spot' project to secure public Wi-Fi with IPv6. Donate to our Bitcoin wallet—every contribution helps. Thank you:**
