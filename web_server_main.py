@@ -32,7 +32,7 @@ app = Flask(__name__,
             static_folder='//mnt/cerr/web_dist/web/img')
 progress_cache = {}
 app.secret_key = '0000'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////mnt/cerr/daa'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////mnt/cerr/main_sqlite3_database.db'
 db = SQLAlchemy(app)
 class CardSettings(db.Model):
     __tablename__ = 'cardsetting'
@@ -1174,7 +1174,7 @@ def decrypt_file(enc_file_path, key, output_path):
 @app.route('/backup_database')
 def backup_database():
     try:
-        db_path = '/mnt/cerr/daa'
+        db_path = '/mnt/cerr/main_sqlite3_database.db'
         backup_dir = '/mnt/cerr/db/backup/'
         backup_file_path = os.path.join(backup_dir, 'client_data.db.encrypted')
         key_path = '/mnt/cerr/db/key/encryption_key.key'
@@ -1195,7 +1195,7 @@ def restore_database():
         key = load_key(key_path)
         temp_file_path = '/mnt/cerr/db/' + file.filename
         file.save(temp_file_path)
-        output_path = '/mnt/cerr/daa'
+        output_path = '/mnt/cerr/main_sqlite3_database.db'
         decrypt_file(temp_file_path, key, output_path)
         os.remove(temp_file_path)
         logging.info("Database restore process completed successfully.")
