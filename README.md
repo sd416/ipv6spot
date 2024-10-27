@@ -488,14 +488,14 @@ Abdulkader Alrezej's work on IPv6Spot demonstrates a deep understanding of netwo
 		db  >> Database encryption and backup files
 		web_dist >> Web Dashboard Pages Files
 		console >> Create virtual interfaces for IPv6Spot
-		daa >> Main system database Sqlite3
+		main_sqlite3_database.db >> Main system database Sqlite3
 		external_domains >> The addresses of the sites you want to block are stored using the IPv6Spot system.
-		sn >> DNS server
-		tba >> nftables rules file
-		tv >> IPv6Spot system
-		wb >> Back-End of the web control panel
-		xt >> IPv6Spot Web Proxy  A Captive portal detection URLs 
-		xtt >> IPv6Spot Web Proxy  B Respond to detection URLs 
+		dns_server_main.py >> DNS server
+		nftable_conf_ipv6 >> nftables rules file
+		captive_portal_server.py >> IPv6Spot system
+		web_server_main.py >> Back-End of the web control panel
+		proxy_server_main.py >> IPv6Spot Web Proxy  A Captive portal detection URLs 
+		proxy_server_slave.py >> IPv6Spot Web Proxy  B Respond to detection URLs 
 		OpenWRT version used in the system:
 		OpenWRT 22.03.0
 		Kernel Version	5.10.138
@@ -632,38 +632,43 @@ Abdulkader Alrezej's work on IPv6Spot demonstrates a deep understanding of netwo
   	wheel                     0.44.0
   	yarl                      1.9.4
 
-- must be disabled Dnsmasq, Also give root permission to the following files: sn tv wb xt xtt >> chmod +x *.py
+- must be disabled Dnsmasq, Also give root permission >> chmod +x *.py
 
-			chmod +x sn.py tv.py wb.py xt.py xtt.py
+			chmod +x dns_server_main.py
+  			chmod +x captive_portal_server.py
+  			chmod +x web_server_main.py
+  			chmod +x proxy_server_main.py
+  			chmod +x proxy_server_slave.py
 
-- Also nftable should be directed to the new nftable rules site at: /etc/init.d/nftables And replace this line " nft -f /etc/nftables.conf " with this line nft -f /mnt/cerr/tba
 
-			nft -f /mnt/cerr/tba
+- Also nftable should be directed to the new nftable rules site at: /etc/init.d/nftables And replace this line " nft -f /etc/nftables.conf " with this line nft -f /mnt/cerr/nftable_conf_ipv6
+
+			nft -f /mnt/cerr/nftable_conf_ipv6
 - 
 - Run services when OpenWrt boots:
 
 			procd_open_instance
-			procd_set_param command /mnt/cerr/xt.py
+			procd_set_param command /mnt/cerr/proxy_server_main.py
 			procd_set_param respawn
 			procd_close_instance
 
 			procd_open_instance
-			procd_set_param command /mnt/cerr/xtt.py
+			procd_set_param command /mnt/cerr/proxy_server_slave.py
 			procd_set_param respawn
 			procd_close_instance
 
 			procd_open_instance
-			procd_set_param command /mnt/cerr/tv.py
+			procd_set_param command /mnt/cerr/captive_portal_server.py
 			procd_set_param respawn
 			procd_close_instance
 
 			procd_open_instance
-			procd_set_param command /mnt/cerr/sn.py
+			procd_set_param command /mnt/cerr/dns_server_main.py
 			procd_set_param respawn
 			procd_close_instance
 
 			procd_open_instance
-			procd_set_param command /mnt/cerr/wb.py
+			procd_set_param command /mnt/cerr/web_server_main.py
 			procd_set_param respawn
 			procd_close_instance
 
