@@ -7,7 +7,7 @@
 - **Project start date: 06/2021**
 - **📌 important note: The IPv6 addresses used in the source code are for the example only, you must replace them with addresses compatible with the IPv6 standards.**
 
-- > `Note: Companies interested in purchasing a license to use the source code commercially can contact this number on WhatsApp: +90 537 450 65 16`
+- **⚠️ Note: Companies interested in purchasing a license to use the source code commercially can contact this number on ☎️ WhatsApp: +90 537 450 65 16**
 
 - **💽 IPv6Spot installation guide with iso file download link to install the system:**
 
