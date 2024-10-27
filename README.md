@@ -5,7 +5,7 @@
 - I hope this innovation resonates with you and showcases the potential of IPv6 for secure and user-friendly network experiences.
 - Some may ask, "Why transition from IPv4 to IPv6?" When using a captive portal with IPv4, it is relatively easy to breach devices via their MAC address and gain internet access by using another person's active session data. However, with IPv6, this is no longer possible.
 - **Project start date: 06/2021**
-- **important note: The IPv6 addresses used in the source code are for the example only, you must replace them with addresses compatible with the IPv6 standards.**
+- **📌 important note: The IPv6 addresses used in the source code are for the example only, you must replace them with addresses compatible with the IPv6 standards.**
 
 - > `Note: Companies interested in purchasing a license to use the source code commercially can contact this number on WhatsApp: +90 537 450 65 16`
 
