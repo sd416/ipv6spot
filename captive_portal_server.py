@@ -140,7 +140,7 @@ def init_ip6tables():
     for command in commands:
         run_nft_command(command)
 def update_db_schema():
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         cursor.execute("PRAGMA table_info(users)")
         columns = [info[1] for info in cursor.fetchall()]
@@ -154,7 +154,7 @@ def update_db_schema():
             ''')
         conn.commit()
 def add_ip_to_db(username, ip_address, role, tc_id):
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         cursor.execute('''
             INSERT OR REPLACE INTO client_ips (username, ip_address, role, tc_id)
@@ -162,7 +162,7 @@ def add_ip_to_db(username, ip_address, role, tc_id):
         ''', (username, ip_address, role, tc_id))
         conn.commit()
 def remove_ip_from_db(username, ip_address):
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         cursor.execute('''
             DELETE FROM client_ips
@@ -170,7 +170,7 @@ def remove_ip_from_db(username, ip_address):
         ''', (username, ip_address))
         conn.commit()
 def get_ips_for_user(username):
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         cursor.execute('''
             SELECT ip_address FROM client_ips
@@ -179,7 +179,7 @@ def get_ips_for_user(username):
         rows = cursor.fetchall()
         return [row[0] for row in rows]
 def get_master_ip_for_user(username):
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         cursor.execute('''
             SELECT ip_address FROM client_ips
@@ -188,7 +188,7 @@ def get_master_ip_for_user(username):
         row = cursor.fetchone()
         return row[0] if row else None
 def get_tc_id_for_ip(ip_address):
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         cursor.execute('''
             SELECT tc_id FROM client_ips
@@ -197,7 +197,7 @@ def get_tc_id_for_ip(ip_address):
         row = cursor.fetchone()
         return row[0] if row else None
 def get_username_for_ip(ip_address):
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         cursor.execute('''
             SELECT username FROM client_ips
@@ -206,7 +206,7 @@ def get_username_for_ip(ip_address):
         row = cursor.fetchone()
         return row[0] if row else None
 def validate_user(username, password):
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         cursor.execute('''
             SELECT password_hash FROM users
@@ -217,7 +217,7 @@ def validate_user(username, password):
             return True
         return False
 def get_user_speeds(username):
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         cursor.execute('''
             SELECT download_speed, upload_speed FROM users
@@ -233,7 +233,7 @@ def parse_datetime(date_str):
     except ValueError:
         return datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S')
 def add_user_session(tc_id, username, master_ip, link_local_ip):
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         cursor.execute('''
             INSERT INTO user_sessions (tc_id, username, master_ip, link_local_ip)
@@ -288,7 +288,7 @@ def update_usage_in_db(tc_id, ip_address):
         actual_upload = upload_usage
     previous_usages[ip_address] = (download_usage, upload_usage)
     current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         cursor.execute('''
             UPDATE user_sessions
@@ -326,7 +326,7 @@ def periodic_ip_check(username, mac_address, tc_id, stop_event):
         if len(link_local_ips) > 1:
             logout_user(username, tc_id)
             return
-        with sqlite3.connect('/mnt/cerr/daa') as conn:
+        with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
             cursor = conn.cursor()
             cursor.execute('''
                 SELECT SUM(download_usage + upload_usage)
@@ -339,7 +339,7 @@ def periodic_ip_check(username, mac_address, tc_id, stop_event):
             ''', (username,))
             max_data, allowed_days = cursor.fetchone()
             if total_usage >= max_data:
-                with sqlite3.connect('/mnt/cerr/daa') as conn:
+                with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
                     cursor = conn.cursor()
                     cursor.execute('''
                         UPDATE users
@@ -363,7 +363,7 @@ def periodic_ip_check(username, mac_address, tc_id, stop_event):
                     session_end = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 days_used = (datetime.strptime(session_end, '%Y-%m-%d %H:%M:%S') - datetime.strptime(session_start, '%Y-%m-%d %H:%M:%S')).days
                 if days_used >= allowed_days:
-                    with sqlite3.connect('/mnt/cerr/daa') as conn:
+                    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
                         cursor = conn.cursor()
                         cursor.execute('''
                             UPDATE users
@@ -390,7 +390,7 @@ def login_required(f):
         client_ip = request.remote_addr
         username = get_username_for_ip(client_ip)
         if username:
-            with sqlite3.connect('/mnt/cerr/daa') as conn:
+            with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
                 cursor = conn.cursor()
                 cursor.execute('''
                     SELECT 1 FROM client_ips WHERE ip_address = ?
@@ -411,7 +411,7 @@ def index():
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     client_ip = request.remote_addr
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         cursor.execute("SELECT name_network FROM info_admin LIMIT 1")
         result = cursor.fetchone()
@@ -422,7 +422,7 @@ def login():
         print("System Name:", system_name)
     username = get_username_for_ip(client_ip)
     if username:
-        with sqlite3.connect('/mnt/cerr/daa') as conn:
+        with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
             cursor = conn.cursor()
             cursor.execute('''
                 SELECT 1 FROM client_ips WHERE ip_address = ?
@@ -436,7 +436,7 @@ def login():
         username = request.form['username']
         password = request.form['password']
         remember_me = request.form.get('remember_me')
-        with sqlite3.connect('/mnt/cerr/daa') as conn:
+        with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
             cursor = conn.cursor()
             cursor.execute('''
                 SELECT 1 FROM user_sessions 
@@ -448,7 +448,7 @@ def login():
             error = 'The user is currently in an active session.'
             return render_template('login.html', error=error, client_ip=client_ip)
         if validate_user(username, password):
-            with sqlite3.connect('/mnt/cerr/daa') as conn:
+            with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
                 cursor = conn.cursor()
                 cursor.execute('''
                     UPDATE user_sessions
@@ -590,7 +590,7 @@ def format_size(size_in_bytes):
 @login_required
 def welcome():
     username = session.get('username')
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         cursor.execute('''
             SELECT max_data, allowed_days, download_speed, upload_speed 
@@ -633,7 +633,7 @@ def reset_tables():
         stop_event.set()
         thread.join()
     user_threads.clear()
-    with sqlite3.connect('/mnt/cerr/daa') as conn:
+    with sqlite3.connect('/mnt/cerr/main_sqlite3_database.db') as conn:
         cursor = conn.cursor()
         cursor.execute('DELETE FROM client_ips')
         cursor.execute('''
