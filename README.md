@@ -3,7 +3,7 @@
 
 		17w2iiZevtWzRyQeSYhrBWrhCyQmKBqzVx
 
-Or, if you’d like, you can support the project through the platform Link 1 [buymeacoffee](buymeacoffee.com/abdulkaderalrezej/captive-portal-project-using-ipv6)
+- **Or, if you’d like, you can support the project through the platform [buymeacoffee](buymeacoffee.com/abdulkaderalrezej/captive-portal-project-using-ipv6)**
 
 ## IPv6Spot Project Overview
 
