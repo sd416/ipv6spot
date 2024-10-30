@@ -1,3 +1,8 @@
+## Donate 🙏🏻💚
+- **Support our 'ipv6spot' project to secure public Wi-Fi with IPv6. Donate to our Bitcoin wallet—every contribution helps. Thank you:**
+
+		17w2iiZevtWzRyQeSYhrBWrhCyQmKBqzVx
+
 ## IPv6Spot Project Overview
 
 - The IPv6Spot project is the culmination of over two years of continuous work, and I am thrilled to share its progress with you. The key focus has been on addressing the challenges associated with handling temporary and multiple IPv6 addresses, which we successfully resolved through the use of MAC addresses. This approach proved to be an ideal solution, operating seamlessly without issues.
@@ -14,11 +19,6 @@
 
 - Link 1 [installation guide](https://youtu.be/Iejz8vUP9wY?si=NBwTcxjhvVZ8RIn_)
 - Link 2 [iso file download link](https://drive.google.com/file/d/1aDe7ILiZPsQL_ZeCsoAG2Kg7vWE2YxC3/view?pli=1)
-
-## Donate 🙏🏻💚
-- **Support our 'ipv6spot' project to secure public Wi-Fi with IPv6. Donate to our Bitcoin wallet—every contribution helps. Thank you:**
-
-		17w2iiZevtWzRyQeSYhrBWrhCyQmKBqzVx
 
 ## License ⚖️
 ipv6spot" Project License Agreement, See the [LICENSE](./LICENSE) file for more details.
