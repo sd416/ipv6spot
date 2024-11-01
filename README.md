@@ -3,8 +3,6 @@
 
 		17w2iiZevtWzRyQeSYhrBWrhCyQmKBqzVx
 
-- **☕ Or, if you’d like, you can support the project through the platform [buymeacoffee](https://buymeacoffee.com/abdulkaderalrezej/captive-portal-project-using-ipv6)**
-
 ## IPv6Spot Project Overview
 
 - The IPv6Spot project is the culmination of over two years of continuous work, and I am thrilled to share its progress with you. The key focus has been on addressing the challenges associated with handling temporary and multiple IPv6 addresses, which we successfully resolved through the use of MAC addresses. This approach proved to be an ideal solution, operating seamlessly without issues.
