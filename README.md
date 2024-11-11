@@ -1,6 +1,6 @@
 ## Donate 🙏🏻💚
 - **Support our 'ipv6spot' project to secure public Wi-Fi with IPv6. Donate to our Bitcoin wallet—every contribution helps. Thank you:**
-		`17w2iiZevtWzRyQeSYhrBWrhCyQmKBqzVx`
+- Network:Bitcoin, Deposit Address: `17w2iiZevtWzRyQeSYhrBWrhCyQmKBqzVx`
 
 ## IPv6Spot Project Overview
 
