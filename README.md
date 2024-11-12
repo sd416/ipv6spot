@@ -40,6 +40,10 @@
   <img src="images/114.png" width="100" height="100">
   <img src="images/115.png" width="100" height="100">
   <img src="images/116.png" width="100" height="100">
+</p>
+
+- Screenshots of user login using the captive portal:
+<p align="left">
   <img src="images/117.jpg" width="100" height="100">
   <img src="images/118.jpg" width="100" height="100">
   <img src="images/119.jpg" width="100" height="100">
