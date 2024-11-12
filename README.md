@@ -16,13 +16,6 @@
 - **💽 IPv6Spot installation guide with iso file download link to install the system:**
 - Link 1 [installation guide](https://youtu.be/Iejz8vUP9wY?si=NBwTcxjhvVZ8RIn_)
 - Link 2 [iso file download link](https://drive.google.com/file/d/1aDe7ILiZPsQL_ZeCsoAG2Kg7vWE2YxC3/view?pli=1)
-- 1
-
-  
-![](https://github.com/abdulkader-alrezej/ipv6spot/blob/main/images/9.png | width=100)
-![](https://github.com/abdulkader-alrezej/ipv6spot/blob/main/images/9.png =250x250)
-![](https://github.com/abdulkader-alrezej/ipv6spot/blob/main/images/10.png =250x250)
-![](https://github.com/abdulkader-alrezej/ipv6spot/blob/main/images/9.png)
 
 ## License ⚖️
 ipv6spot" Project License Agreement, See the [LICENSE](./LICENSE) file for more details.
