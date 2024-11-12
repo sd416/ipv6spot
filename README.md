@@ -17,12 +17,12 @@
 - Link 1 [installation guide](https://youtu.be/Iejz8vUP9wY?si=NBwTcxjhvVZ8RIn_)
 - Link 2 [iso file download link](https://drive.google.com/file/d/1aDe7ILiZPsQL_ZeCsoAG2Kg7vWE2YxC3/view?pli=1)
 
-- Screenshots of IPv6Spot System Installation:
+Screenshots of IPv6Spot System Installation:
 <p align="left">
   <img src="images/9.png" width="100" height="100">
   <img src="images/10.png" width="100" height="100">
 </p>
-- Screenshots of IPv6Spot System:
+Screenshots of IPv6Spot System:
 <p align="left">
   <img src="images/101.png" width="100" height="100">
   <img src="images/102.png" width="100" height="100">
@@ -41,7 +41,7 @@
   <img src="images/115.png" width="100" height="100">
   <img src="images/116.png" width="100" height="100">
 </p>
-- Screenshots of user login using the captive portal:
+Screenshots of user login using the captive portal:
 <p align="left">
   <img src="images/117.jpg" width="100" height="100">
   <img src="images/118.jpg" width="100" height="100">
