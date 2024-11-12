@@ -14,7 +14,6 @@
 
 ## 💽 IPv6Spot installation
 - **💽 IPv6Spot installation guide with iso file download link to install the system:**
-
 - Link 1 [installation guide](https://youtu.be/Iejz8vUP9wY?si=NBwTcxjhvVZ8RIn_)
 - Link 2 [iso file download link](https://drive.google.com/file/d/1aDe7ILiZPsQL_ZeCsoAG2Kg7vWE2YxC3/view?pli=1)
 
@@ -31,16 +30,12 @@ Integrating the project into a product or service that is sold or generates reve
 Offering the project as a paid service or part of a paid service.
 Any use within a commercial organization, whether internal or external.
 To obtain a commercial license, please contact abdulkader.alrezej@gmail.com to arrange the purchase and discuss terms.
-
-3. General Terms
+4. General Terms
 All intellectual property rights related to the "ipv6spot" project are reserved by the project owner Abdulkader Alrezej.
 You may not remove any copyright notices or modify the attribution in the source code.
 The project is provided "as-is," without any express or implied warranties.
-
-4. Penalties
+5. Penalties
 Any unauthorized commercial use of the project without purchasing a license will be considered a violation of this agreement and may result in legal action.
-
-![2](https://github.com/user-attachments/assets/34a387aa-9e23-4189-8301-a6757ee1d4db)
 
 ## Research Paper 🗒️
 Research Paper: IPv6Spot - An Innovative IPv6 Captive Portal Solution with Integrated DNS and Proxy Services
