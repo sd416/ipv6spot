@@ -39,13 +39,13 @@
   <img src="images/114.png" width="100" height="100">
   <img src="images/115.png" width="100" height="100">
   <img src="images/116.png" width="100" height="100">
-  <img src="images/117.png" width="100" height="100">
-  <img src="images/118.png" width="100" height="100">
-  <img src="images/119.png" width="100" height="100">
-  <img src="images/120.png" width="100" height="100">
-  <img src="images/121.png" width="100" height="100">
-  <img src="images/122.png" width="100" height="100">
-  <img src="images/123.png" width="100" height="100">
+  <img src="images/117.jpg" width="100" height="100">
+  <img src="images/118.jpg" width="100" height="100">
+  <img src="images/119.jpg" width="100" height="100">
+  <img src="images/120.jpg" width="100" height="100">
+  <img src="images/121.jpg" width="100" height="100">
+  <img src="images/122.jpg" width="100" height="100">
+  <img src="images/123.jpg" width="100" height="100">
 </p>
 ## License ⚖️
 ipv6spot" Project License Agreement, See the [LICENSE](./LICENSE) file for more details.
